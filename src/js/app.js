@@ -33,8 +33,8 @@ function render(variables = {}) {
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
-          <h1>${variables.name == null ? "Kelsi" : variables.name}${
-    variables.lastname == null ? " Dahlia" : variables.lastname
+          <h1>${variables.name == null ? " Kelsi " : variables.name}${
+    variables.lastname == null ? " Dahlia " : variables.lastname
   }</h1>
           <h2>${
             variables.role == null ? "Professional Swimmer" : variables.role
@@ -50,7 +50,7 @@ function render(variables = {}) {
             } "><i class="fab fa-twitter"></i></a></li>
             <li><a href="${
               variables.github == null
-                ? "https://github.com/4geeksacademy"
+                ? "https://twitter.com/kelsiwhirl?lang=es"
                 : variables.github
             } "><i class="fab fa-github"></i></a></li>
             <li><a href="${
@@ -85,7 +85,7 @@ window.onload = function() {
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: null,
-    github: "alesanchezr",
+    github: null,
     linkedin: null,
     instagram: null,
     name: null,
