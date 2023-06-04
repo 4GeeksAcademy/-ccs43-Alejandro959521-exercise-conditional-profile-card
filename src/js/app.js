@@ -43,24 +43,22 @@ function render(variables = {}) {
     variables.country == null ? "EEUU" : variables.country
   }</h3>
           <ul class="${variables.socialMediaPosition}">
-            <li><a href="${
-              variables.twitter == null
-                ? "https://twitter.com/kelsiwhirl?lang=es"
-                : variables.twitter
-            } "><i class="fab fa-twitter"></i></a></li>
-            <li><a href="${
-              variables.github == null
-                ? "https://twitter.com/kelsiwhirl?lang=es"
-                : variables.github
+                <li><a href="https://twitter.com/${
+                  variables.twitter == null
+                    ? "kelsiwhirl?lang=es"
+                    : variables.twitter
+                }"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/${
+              variables.github == null ? "Alejandro959521" : variables.github
             } "><i class="fab fa-github"></i></a></li>
-            <li><a href="${
+            <li><a href="https://www.linkedin.com/in/${
               variables.linkedin == null
-                ? "https://www.linkedin.com/in/kelsi-dahlia-10127915b"
+                ? "kelsi-dahlia-10127915b"
                 : variables.linkedin
             }"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="${
+            <li><a href="https://www.instagram.com/${
               variables.instagram == null
-                ? "https://www.instagram.com/kelsiwhirl/?hl=es"
+                ? "kelsiwhirl/?hl=es"
                 : variables.instagram
             }"><i class="fab fa-instagram"></i></a></li>
           </ul>
